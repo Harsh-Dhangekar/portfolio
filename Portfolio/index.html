@@ -1,0 +1,177 @@
+TYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9bba9bb511.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Frontend Development</p>
+            <h1>Hi I'm <span>Harsh Dhangekar</span></h1>
+        </div>
+    </div>
+</div>
+<!----------about---------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Myimage.jpeg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi, I'm Harsh, a passionate Computer Science Engineering student with a strong foundation in web development and programming. 
+                    I have experience working with Python, HTML, CSS, and JavaScript, and I love building interactive and user-friendly applications. 
+                    Always eager to learn and explore new technologies, I'm looking for opportunities to grow and apply my skills in real-world projects.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+               
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>Frontend Development</span><br>HTML,CSS,JAVASCRIPT</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Engineering Student</span><br>Computer Science Engineering</li>
+                    </ul>
+                </div>   
+        
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------services------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I believe web design is more than just aesthetics—it's about creating intuitive, responsive, and user-friendly experiences. 
+                    With a strong foundation in HTML, CSS, and JavaScript, I focus on crafting visually appealing and functional websites that adapt seamlessly across devices. 
+                    My goal is to blend creativity with clean, efficient code to deliver engaging digital experiences.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>I believe web design is more than just aesthetics—it's about creating intuitive, responsive, and user-friendly experiences. 
+                    With a strong foundation in HTML, CSS, and JavaScript, I focus on crafting visually appealing and functional websites that adapt seamlessly across devices. 
+                    My goal is to blend creativity with clean, efficient code to deliver engaging digital experiences.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>I believe web design is more than just aesthetics—it's about creating intuitive, responsive, and user-friendly experiences. 
+                    With a strong foundation in HTML, CSS, and JavaScript, I focus on crafting visually appealing and functional websites that adapt seamlessly across devices. 
+                    My goal is to blend creativity with clean, efficient code to deliver engaging digital experiences.</p>
+                    <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------Portfolio------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png" >
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Designed to bring music lovers a seamless listening experience, this app offers a clean and intuitive interface for discovering, organizing, and enjoying your favorite tracks. With smooth navigation and responsive design, it ensures an immersive and engaging music experience.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png" >
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>A user-friendly online shopping platform that simplifies browsing, selecting, and purchasing products. With an intuitive UI, secure transactions, and a seamless shopping experience across devices, this app enhances convenience and accessibility for users.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!--------------contact------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>harshdhangekar3@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9767131094</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/harsh_d23/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/harsh-dhangekar-5a1402337/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Harsh Dhangekar.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Kevin. Made <i class="fa-solid fa-heart"></i> by Harsh Dhangekar</p>
+    </div>
+</div>
+<script>
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+   
+   function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+
+
+   }
+</script>
+</body>
+</html>
